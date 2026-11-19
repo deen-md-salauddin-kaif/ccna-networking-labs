@@ -1,0 +1,7 @@
+## Lab Overview
+
+In this lab, we use two Cisco switches and create two VLANs: VLAN 10 (CCE) and VLAN 20 (CSE). The two switches are connected using a trunk link so that both VLANs can send data between the switches.
+
+We use the `show vlan brief` command to check the VLAN settings. Ping tests show that PCs in the same VLAN can communicate with each other, even when they are connected to different switches. But PCs in different VLANs cannot communicate because Inter-VLAN Routing is not configured.
+
+This lab helps us learn how to create VLANs, set access and trunk ports, and connect two switches.
